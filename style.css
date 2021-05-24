@@ -1,0 +1,95 @@
+.bodyImg {
+    color: hsl(240, 22%, 78%);
+    border-left: 40px;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #81b8ce;
+}
+
+h3 {
+    padding: 30px;
+    border: #058cfa;
+}
+
+p {
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(157, 71%, 64%);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.grid img{
+    border: 2px solid #058cfa;
+    border-radius: 50px;
+}
+
+.origami {
+
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    color: rgb(7, 18, 27);
+    border-radius: 20px;
+    width: 310px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+.title {
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: hsl(128, 57%, 75%);
+}
+
+* {
+    border: transparent;
+    background-color: hsl(240, 60%, 2%);
+}
+
+a:link {
+    color: azure;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+.socials {
+    padding-left: 950px;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.h1{
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+}
